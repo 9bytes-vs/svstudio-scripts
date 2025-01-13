@@ -1,3 +1,11 @@
+/*An updated version of the SplitSelectedNotes plugin from https://github.com/Dreamtonics/svstudio-scripts/blob/master/Utilities/SplitSelectedNotes.js
+Made to actually work with Pitch Modes and Auto-Pitch Tuning since... y'know...
+...Dreamtonics hasn't updated their plugins OR their scripting manual in 5 years.
+...I'm not bitter ^^*/
+
+// just splits note at the playhead, regardless of selection
+// preserves pitch mode and auto-pitch toggle of original note
+
 function getClientInfo() {
   return {
     "name" : SV.T("Split Note (Contextual)"),
