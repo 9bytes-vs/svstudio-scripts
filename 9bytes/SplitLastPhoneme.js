@@ -1,3 +1,7 @@
+// Recommended to use with UtaUtaUtau's "PhonemeToLyrics" script.
+// Works by taking the last space-separated fake "phoneme" from the last note's lyrics and splitting it off.
+// Splits at playhead, no note selection needed.
+
 function getClientInfo() {
     return {
       "name" : SV.T("Split Last Phoneme"),
